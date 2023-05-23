@@ -25,9 +25,11 @@ class DatabaseSeeder extends Seeder
 
         Storage::deleteDirectory('categories');
         Storage::deleteDirectory('subcategories');
+        Storage::deleteDirectory('products');
 
         Storage::makeDirectory('categories');
         Storage::makeDirectory('subcategories');
+        Storage::makeDirectory('products');
 
 
         $this->call(UserSeeder::class);
