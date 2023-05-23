@@ -76,6 +76,8 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 3,
                 'name' => 'Mujer',
                 'slug'=> Str::slug('Mujer'),
+                'color' => true,
+                'size' => true,
             ],
 
             #'Niño'
@@ -83,6 +85,8 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 3,
                 'name' => 'Niño',
                 'slug'=> Str::slug('Niño'),
+                'color' => true,
+                'size' => true,
             ],
 
             /*Computacion*/
@@ -92,6 +96,7 @@ class SubcategorySeeder extends Seeder
                 'name' => 'Laptop',
                 'slug'=> Str::slug('Laptop'),
                 'color' => true,
+                'size' => true,
             ],
 
             #'PC'
@@ -122,6 +127,8 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 5,
                 'name' => 'Corte',
                 'slug'=> Str::slug('Corte'),
+                'color' => true,
+                'size' => true,
             ],
 
             #'Blusa'
@@ -129,6 +136,8 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 5,
                 'name' => 'Blusa',
                 'slug'=> Str::slug('Blusa'),
+                'color' => true,
+                'size' => true,
             ]
         ];
 
